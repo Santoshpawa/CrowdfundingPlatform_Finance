@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seed Invest</title>
+    <!-- Below link is for footer icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Below link is for title icon -->
+    <link rel="icon" href="./images/download.png">
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./footer.css">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            /* height: 300vh; */
+
+            background-image: linear-gradient(#000201, #0c2b2e);
+
+        }
+
+
+
+        /* main starts here */
+
+        main {
+            margin: 100px 0 100px 0;
+        }
+
+        .welcomeTextContainer {
+            height: 70px;
+        }
+
+        #welcomeText {
+            z-index: 100;
+            color: green;
+            font-size: 40px;
+            font-weight: 800;
+            font-family: sans-serif;
+            /* pre-wrap insure that spaces are also visible */
+            /* pre-wrap : preserve wrapping of blank spaces and new line characters */
+            white-space: pre-wrap;
+            text-align: center;
+
+        }
+
+        /*   invest-or-raise-capital-block starts below */
+
+        #invest-or-raise-capital-classes-container {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .invest-or-raise-capital {
+            display: inline-block;
+            width: 40%;
+            padding: 40px;
+            margin: 80px 30px 60px 30px;
+            line-height: 1.5;
+            border-radius: 20px;
+            color: white;
+            font-family: sans-serif;
+            background-color: #0c2f31;
+        }
+
+        .invest-or-raise-capital>button {
+            border: none;
+            border-radius: 10px;
+            background-color: #7e95ff;
+            padding: 10px;
+            text-align: center;
+            width: 50%;
+            font-weight: 800;
+            margin-top: 20px;
+            height: 50px;
+            cursor: pointer;
+        }
+
+        .invest-or-raise-capital>button:hover {
+            background-color: #3157fd;
+        }
+
+        .invest-or-raise-capital>button:active {
+            transition: 0.5s;
+            background-color: aqua;
+        }
+
+        /*   invest-or-raise-capital-block ends here */
+
+        /* main ends here */
+    </style>
+</head>
+
+<body>
+    <header>
+        <h3 class="gradient-text">Seed Invest</h3>
+        <button class="home-btn">Home</button>
+        <button class="invest-btn">Invest</button>
+        <button class="project-btn">Add Projects</button>
+        <button class="reward-btn">Rewards</button>
+        <button class="learn-btn"><a
+                href="https://www.udemy.com/topic/fundraising/?couponCode=NVD20PMUS&utm_source=adwords&utm_medium=udemyads&utm_campaign=Search_DSA_GammaCatchall_NonP_la.EN_cc.India&campaigntype=Search&portfolio=India&language=EN&product=Course&test=&audience=DSA&topic=&priority=Gamma&utm_content=deal4584&utm_term=_._ag_166578677881_._ad_700948726520_._kw__._de_c_._dm__._pl__._ti_dsa-1456167871416_._li_9302258_._pd__._&matchtype=&gad_source=1&gad_campaignid=21341314003&gbraid=0AAAAADROdO0_Nx8DkI8UQct9CF_RYUEDd&gclid=Cj0KCQjwmK_CBhCEARIsAMKwcD7I963S0HCMzjWEp8y8gwGgRT6EKPJ8SF2TZyOa1RzQr44M95e8ln0aAoAZEALw_wcB">
+                Learn</a></button>
+        <button><a href="#footer" class="connect-btn">Connect</a></button>
+        <button class="login-btn">Login</button>
+        <button class="logout-btn hidden">Log Out</button>
+    </header>
+
+    <!-- main -->
+    <main id="home">
+
+        <!-- welcome text in which characters appears after 1 seconds -->
+        <div class="welcomeTextContainer">
+            <p id="welcomeText"></p>
+        </div>
+
+        <!-- slowing appearing text ends here -->
+
+        <!-- invest or raise capital division starts below -->
+
+        <div id="invest-or-raise-capital-classes-container">
+            <div class="invest-or-raise-capital">
+                <h1>Looking To<br>Invest?</h1>
+                <p>We enable everyday investors like you to purchase equity in private companies — without
+                    the multi-million dollar commitments. See below to browse 100+ live opportunities.</p>
+                <button id="explore-investment">Explore Investment</button>
+            </div>
+            <div class="invest-or-raise-capital">
+                <h1>Looking To<br>Raise Capital?</h1>
+                <p>We support you every step of the way, from investor outreach to analytics to funding management.
+                    Discover how you can tap into our network and resources for your next raise.</p>
+                <button id="raise-capital">Raise Capital</button>
+            </div>
+        </div>
+
+        <!-- invest or raise capital division ends below -->
+
+
+    </main>
+
+    <!-- footer below -->
+    <footer id="footer" class="footer">
+        <div class="footerContainer">
+            <div class="socialIcons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-google-plus"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="footerNav">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">News</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Our Team</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerBottom">
+            <p>Copyright &copy;2025; Designed by <span class="designer">DevKings</span></p>
+        </div>
+    </footer>
+</body>
+
+</html>
+<script type="module" src="./auth.js"></script>
+<script type="module" src="./index.js"></script>
+<script type="module" src="./header.js"></script>

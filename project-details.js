@@ -70,6 +70,7 @@ addBtn.addEventListener('click', async()=>{
 
 // fetching comments
 async function fetchComments() {
+    commentsContainer.innerHTML = "";
     let comments = await getDocs(commentSnapshot);
     comments.forEach((comSnap)=>{
         const comment = comSnap.data();

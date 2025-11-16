@@ -1,6 +1,5 @@
-# CrowdfundingPlatform_Finance https://enchanting-maamoul-a41886.netlify.app/ Video Link: https://youtu.be/97BBefCWYFw?si=0cuwv1_uieBNWFqE
-
-CrowdfundingPlatform_Finance Deploy Link : https://enchanting-maamoul-a41886.netlify.app/
+# CrowdfundingPlatform_Finance 
+CrowdfundingPlatform_Finance Deploy Link : https://crowd-funding-a41886.netlify.app/
 
 🌱 Seed Invest – Crowdfunding Platform
 Seed Invest is a modern, responsive web application designed to connect everyday investors with startups and private businesses looking to raise capital. Built with HTML, CSS, JavaScript, and Firebase, this platform provides seamless features for user authentication, project browsing, funding, and commenting.
